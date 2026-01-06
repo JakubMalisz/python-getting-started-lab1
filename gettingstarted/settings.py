@@ -51,7 +51,7 @@ DEBUG = os.environ.get("ENVIRONMENT") == "development"
 # https://devcenter.heroku.com/articles/heroku-ci#immutable-environment-variables
 IS_HEROKU_APP = "DYNO" in os.environ and "CI" not in os.environ
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://lab1-python-g4tk.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lab1-python-g4tk.onrender.com']
 
 if os.environ.get('IS_HEROKU_APP') == '1':
     ALLOWED_HOSTS.append('*')
