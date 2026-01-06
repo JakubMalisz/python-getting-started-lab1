@@ -208,7 +208,7 @@ STORAGES = {
 WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
 # Customise the default logging config, since by default full Django logs are only emitted when
-# `DEBUG=True` (which otherwise makes diagnosing errors much harder in production):
+DEBUG=True
 # https://docs.djangoproject.com/en/6.0/ref/logging/#default-logging-configuration
 # For more advanced logging you may want to try: https://django-structlog.readthedocs.io
 LOGGING = {
